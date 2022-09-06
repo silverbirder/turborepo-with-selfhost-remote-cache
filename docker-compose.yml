@@ -6,4 +6,4 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./storage/:/home/app/node/storage/
+      - ./storage/:/tmp/storage/
