@@ -1,0 +1,9 @@
+services:
+  remote-cache:
+    image: fox1t/turborepo-remote-cache:latest
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./storage/:/home/app/node/storage/

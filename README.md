@@ -1,2 +1,5 @@
-# turborepo-with-selfhost-remote-cache
- turborepo and turborepo-remote-cache
+```
+$ make up
+$ yarn build:remote
+$ yarn build:remote
+```
