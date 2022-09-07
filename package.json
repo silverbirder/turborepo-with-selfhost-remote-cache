@@ -8,7 +8,6 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "build:remote": "turbo run build --team=\"team_myteam\" --token=\"mytoken\" --api=\"http://localhost:3000\"",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
